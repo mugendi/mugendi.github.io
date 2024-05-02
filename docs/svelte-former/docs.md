@@ -50,20 +50,12 @@ let s = new SvelteFormer({
 
 ```javascript
 
-import Former from 'svlete-former';
+import Former from 'svelte-former';
+
 // controls
 let controls = [...];
 
-const app = new Former({
- // target element
-  target: document.getElementById('form'),
-  // props
-  props: {
-    controls,
-    // form action
-    action: '',
-    // form submit post
-    method: 'post',
-  },
-});
+// Svelte Component
+<Former {controls} action= '' method= 'post' />
+
 ```
