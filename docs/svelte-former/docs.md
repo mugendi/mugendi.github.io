@@ -1,11 +1,5 @@
 # Docs
 
-<head>
-  <link rel="stylesheet" href="/static/styles/style.css" />
-</head>
-
-
-
 sdds
 
 ```javascript
