@@ -17,9 +17,10 @@
 
   </head>
 
-  <!-- body -->
 
 # Docs
+
+sdds
 
 ```javascript
 // create an array of controls
@@ -41,6 +42,11 @@ let controls = [
   },
 ];
 
+```
+
+sds 
+
+```javascript
 // initialize form
 let s = new SvelteFormer({
   target: document.getElementById('form'),
