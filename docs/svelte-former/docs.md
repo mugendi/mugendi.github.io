@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="/static/styles/style.css" />
 
-
 # Docs
-
 
 ```javascript
 // create an array of controls
@@ -36,23 +34,23 @@ sds
 <!-- Add Script -->
 <script src=".../build/svelte-former.js">
 
-<script>
-  // controls
-  let controls = [...];
+  <script>
+    // controls
+    let controls = [...];
 
-  // initialize form
-  let s = new SvelteFormer({
-    // target element
-    target: document.getElementById('form'),
-    // props
-    props: {
-      controls,
-      // form action
-      action: '',
-      // form submit post
-      method: 'post',
-    },
-  });
+    // initialize form
+    let s = new SvelteFormer({
+      // target element
+      target: document.getElementById('form'),
+      // props
+      props: {
+        controls,
+        // form action
+        action: '',
+        // form submit post
+        method: 'post',
+      },
+    });
 </script>
 ```
 
@@ -70,9 +68,9 @@ let controls = [...];
 
 ```
 
-
 <script>
 
+  document.querySelector('title').innerText = "Docs"
   document.querySelector('h1:first-child').remove()
 
 </script>
