@@ -1,4 +1,9 @@
 <link rel="stylesheet" href="/static/styles/style.css" />
+<style>
+h1:first-child{
+  display:none;
+}
+</style>
 
 # Docs
 
