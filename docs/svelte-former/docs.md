@@ -57,6 +57,8 @@ Each form control is an object with the following properties `element, attribute
 
 ## Svelte
 
+First install with `yarn add svelte-former`.
+
 ```javascript
 
 import Former from 'svelte-former';
