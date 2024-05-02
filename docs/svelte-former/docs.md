@@ -1,5 +1,6 @@
-
 # Docs
+
+First create an array of all form control.
 
 ```javascript
 // create an array of controls
@@ -22,7 +23,8 @@ let controls = [
 ];
 ```
 
-sds
+Each form control is an object with the following properties `element, attributes, label, validation, options, content, classes, onChange` [Read More](/docs/svelte-former/control) .
+
 
 ## Vanilla Javascript / HTML
 
