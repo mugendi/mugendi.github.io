@@ -33,10 +33,31 @@ let controls = [...];
 
 // initialize form
 let s = new SvelteFormer({
+  // target element
   target: document.getElementById('form'),
-  onSubmit: function (e) {
-    console.log(e);
+  // props
+  props: {
+    controls,
+    // form action
+    action: '',
+    // form submit post
+    method: 'post',
   },
+});
+```
+
+## Svelte
+
+```javascript
+
+import Former from 'svlete-former';
+// controls
+let controls = [...];
+
+const app = new Former({
+ // target element
+  target: document.getElementById('form'),
+  // props
   props: {
     controls,
     // form action
