@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,15 +14,46 @@
       rel="stylesheet"
     />
 
-
   </head>
 
   <!-- body -->
- 
+
 # Docs
 
+```javascript
+// create an array of controls
+let controls = [
+  {
+    element: 'input',
+    // add any valid html input attributes
+    attributes: {
+      name: 'firstName',
+      required: true,
+    },
+    // bootstrap column classes to position inputs
+    classes: ['col-sm-12', 'col-md-6'],
+    // validation based on https://github.com/icebob/fastest-validator
+    validation: {
+      type: 'string',
+    },
+    label: 'First Name',
+  },
+];
 
+// initialize form
+let s = new SvelteFormer({
+  target: document.getElementById('form'),
+  onSubmit: function (e) {
+    console.log(e);
+  },
+  props: {
+    controls,
+    // form action
+    action: '',
+    // form submit post
+    method: 'post',
+  },
+});
+```
 
-            
-  
 </html>
