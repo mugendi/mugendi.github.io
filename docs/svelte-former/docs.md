@@ -28,6 +28,9 @@ sds
 ## Vanilla Javascript
 
 ```javascript
+// controls
+let controls = [...];
+
 // initialize form
 let s = new SvelteFormer({
   target: document.getElementById('form'),
