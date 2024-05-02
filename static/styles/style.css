@@ -4,6 +4,9 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body,
 body * {
   font-family: 'Montserrat', sans-serif;
@@ -24,17 +27,17 @@ h6 {
 }
 
 h1 {
-  font-size: calc(3.5vw);
+  font-size: calc(5vw ) !important;
 }
 
 h2 {
-  font-size: calc(3vw);
+  font-size: calc(3vw) !important;
 }
-h1 {
-  font-size: calc(2.5vw);
+h3 {
+  font-size: calc(2.5vw) !important;
 }
-h1 {
-  font-size: calc(2vw);
+h4 {
+  font-size: calc(2vw) !important;
 }
 
 .button{

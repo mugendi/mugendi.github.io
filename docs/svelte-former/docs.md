@@ -1,17 +1,6 @@
-
 <head>
-
-  <!-- <link rel="stylesheet" href="/static/styles/bulma.css" /> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="/static/styles/style.css" /> 
-
+  <link rel="stylesheet" href="/static/styles/style.css" />
 </head>
-
 
 # Docs
 
@@ -36,10 +25,11 @@ let controls = [
     label: 'First Name',
   },
 ];
-
 ```
 
-sds 
+sds
+
+## Vanilla Javascript
 
 ```javascript
 // initialize form
@@ -57,5 +47,3 @@ let s = new SvelteFormer({
   },
 });
 ```
-
-</html>
