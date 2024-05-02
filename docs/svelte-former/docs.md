@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/static/styles/style.css" /> 
 
   </head>
 
