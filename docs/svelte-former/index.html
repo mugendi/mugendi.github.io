@@ -12,19 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Elements</title>
 
-    <link rel="stylesheet" href="/static/styles/bulma.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
     <link
       rel="stylesheet"
-      href="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/css/examples.css"
+      href="https://cdn.statically.io/gh/jgthms/bulma/main/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="/static/styles/style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/css/javascript-theme.css"
@@ -35,36 +28,42 @@
     />
   </head>
   <body>
-    <div>
-      <div class="mt-4 pb-4 pl-4">
-        <a class="button is-primary is-outlined" href="/">Home</a>
-        <a class="button is-primary is-outlined" href="/docs/svelte-former/docs.html">Docs</a>
-      </div>
-      <div id="container">
-        
-        <div class="column">
-          <div class="border">
-            <h4>Form</h4>
-            <div id="form"></div>
-          </div>
+    <div class="my-2 mx-4">
+      <a class="button is-primary is-outlined" href="/">Home</a>
+      <a
+        class="button is-primary is-outlined"
+        href="/docs/svelte-former/docs.html"
+        >Docs</a
+      >
+    </div>
 
-          <div id="submit-data" class="border">
-            <h4>Response</h4>
-            <pre class="language-json"><code class="language-json">
+    <section class="section p-2 px-3">
+      <div id="container-fluid">
+        <div class="columns">
+          <div class="column">
+            <div class="border">
+              <h2>Form</h2>
+              <div id="form"></div>
+            </div>
+
+            <div id="submit-data" class="border">
+              <h2>Response</h2>
+              <pre class="language-json"><code class="language-json">
             // Press "Submit" above to show response
           </code></pre>
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="border">
-            <h4>Code</h4>
-            <div id="code" class="line-numbers">
-              <pre><code  class="language-javascript"></code></pre>
+          <div class="column">
+            <div class="border">
+              <h2>Code</h2>
+              <div id="code" class="line-numbers">
+                <pre><code  class="language-javascript"></code></pre>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
