@@ -1,6 +1,7 @@
+<link rel="stylesheet" href="/static/styles/style.css" />
+
 # Docs
 
-sdds
 
 ```javascript
 // create an array of controls
