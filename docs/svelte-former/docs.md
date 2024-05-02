@@ -1,10 +1,3 @@
-<!--
- Copyright (c) 2024 Anthony Mugendi
- 
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +7,7 @@
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
     <title>My Projects</title>
-    <link rel="stylesheet" href="/static/styles/bulma.css" />
+    <!-- <link rel="stylesheet" href="/static/styles/bulma.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,19 +15,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/static/styles/style.css" />
+
   </head>
 
   <!-- body -->
-  <body>
-    <section class="section">
-      <div class="container">
-        <div class="columns" >
-            <h2>Docs</h2>
-            
-        </div>
-      </div>
-    </section>
-  </body>
+ 
+# Docs
 
+
+
+            
+  
 </html>
