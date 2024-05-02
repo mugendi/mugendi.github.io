@@ -25,7 +25,7 @@ let controls = [
 
 sds
 
-## Vanilla Javascript
+## Vanilla Javascript / HTML
 
 ```html
 <!-- Target element -->
