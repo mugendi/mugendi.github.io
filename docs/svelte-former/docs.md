@@ -27,23 +27,31 @@ sds
 
 ## Vanilla Javascript
 
-```javascript
-// controls
-let controls = [...];
+```html
+<!-- Target element -->
+<div id="form"></div>
 
-// initialize form
-let s = new SvelteFormer({
-  // target element
-  target: document.getElementById('form'),
-  // props
-  props: {
-    controls,
-    // form action
-    action: '',
-    // form submit post
-    method: 'post',
-  },
-});
+<!-- Add Script -->
+<script src=".../build/svelte-former.js">
+
+<script>
+  // controls
+  let controls = [...];
+
+  // initialize form
+  let s = new SvelteFormer({
+    // target element
+    target: document.getElementById('form'),
+    // props
+    props: {
+      controls,
+      // form action
+      action: '',
+      // form submit post
+      method: 'post',
+    },
+  });
+</script>
 ```
 
 ## Svelte
