@@ -1,0 +1,63 @@
+<!--
+ Copyright (c) 2024 Anthony Mugendi
+ 
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Elements</title>
+
+    <link rel="stylesheet" href="/static/styles/bulma.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <link rel="stylesheet" href="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/css/examples.css" />
+    <link rel="stylesheet" href="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/css/javascript-theme.css" />
+    <link rel="stylesheet" href="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/css/json-theme.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="column">
+
+        <div class="border">
+          <h4>Form</h4>
+          <div id="form"></div>
+        </div>
+        
+        <div id="submit-data" class="border">
+          <h4>Response</h4>
+          <pre class="language-json"><code class="language-json">
+            // Press "Submit" above to show response
+          </code></pre>
+        </div>
+      </div>
+      <div class="column">
+        <div class="border">
+          <h4>Code</h4>
+          <div id="code" class="line-numbers">
+            <pre><code  class="language-javascript"></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js" ></script>
+
+  <script src="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/build/svelte-former.js"></script>
+  <script src="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967/examples/js/examples/basic.js"></script> 
+  <script src="https://cdn.statically.io/gh/mugendi/svelte-former/446c8967//examples/js/code.js"></script>
+
+</html>

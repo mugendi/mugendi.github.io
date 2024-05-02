@@ -1,0 +1,46 @@
+/**
+ * Copyright (c) 2024 Anthony Mugendi
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+body,
+body * {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Jersey 15', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: calc(3.5vw);
+}
+
+h2 {
+  font-size: calc(3vw);
+}
+h1 {
+  font-size: calc(2.5vw);
+}
+h1 {
+  font-size: calc(2vw);
+}
+
+.button{
+    margin-top: 10px;
+}
+
+ol,ul{
+    margin: 10px 0 10px 30px;
+}

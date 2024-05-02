@@ -1,0 +1,21 @@
+{
+  "name": "mugendi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build-projects.js",
+    "git-add-build": "git add projects/"
+  },
+  "pre-commit": [
+    "build",
+    "git-add-build"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/mugendi/mugendi.github.io.git",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
